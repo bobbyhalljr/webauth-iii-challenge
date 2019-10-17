@@ -21,12 +21,12 @@ const Users = () => {
         })
     }
 
-    useEffect(() => {
-        getUsers();
-    }, [])
+    // useEffect(() => {
+    //     getUsers();
+    // }, [])
 
     return (
-        <h1>{user.credentials.username}</h1>
+        <h1>this is the users</h1>
     )
 }
 
